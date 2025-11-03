@@ -12,7 +12,25 @@
 
 ---
 
+## ⚠️ Important Warning
+
+> **⚠️ CRITICAL: Do NOT perform a factory reset on your gateway!**
+> 
+> Performing a factory reset will **erase all system configuration** and require a **complete redeployment** of the Atrium Gateway system. This includes:
+> - All sensor configurations
+> - Alert thresholds and settings
+> - Database and historical data
+> - Network and security settings
+> - Custom configurations
+> 
+> If you need to reset or troubleshoot the gateway, contact your system administrator or refer to the troubleshooting section in the [User Guide](USER_GUIDE.md) instead.
+
+---
+
 ## 📋 Step 1: Access the Platform
+
+> **⚠️ REMINDER: Do NOT perform a factory reset on your gateway!**  
+> A factory reset will erase all system configuration and require a complete redeployment.
 
 ### Local Access
 Open your web browser and navigate to:
@@ -20,14 +38,14 @@ Open your web browser and navigate to:
 http://ncd-XXXX.local/ Where XXXX is the last 4 digits of your gateway's MAC Address.
 ```
 
-![Login Page](images/login-page.png)
-*Figure 1: Atrium Gateway login screen*
-
 ### Remote Access (if enabled)
 If remote access is configured:
 ```
 https://XXXX.iolight.com/ Where XXXX is the last 4 digits of your Atrium Gateway MAC address.
 ```
+
+![Login Page](images/login-page.png)
+*Figure 1: Atrium Gateway login screen*
 
 ---
 
@@ -47,9 +65,6 @@ https://XXXX.iolight.com/ Where XXXX is the last 4 digits of your Atrium Gateway
 ## 📊 Step 3: View Your Sensors
 
 The main page shows all your sensors with real-time status.
-
-![Sensors List](images/sensor-list.png)
-*Figure 3: Sensors list with status indicators and navigation*
 
 **What you'll see:**
 - **Sensor List** - All detected sensors

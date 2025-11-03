@@ -4,6 +4,22 @@
 
 ---
 
+## ⚠️ Critical Warning
+
+> **⚠️ CRITICAL: Do NOT perform a factory reset on your gateway!**
+> 
+> Performing a factory reset will **erase all system configuration** and require a **complete redeployment** of the Atrium Gateway system. This includes:
+> - All sensor configurations and metadata
+> - Alert thresholds and notification settings
+> - Database and historical data
+> - Network and security settings
+> - Custom configurations and preferences
+> - Remote access settings
+> 
+> If you need to reset or troubleshoot the gateway, contact your system administrator or refer to the [Troubleshooting](#troubleshooting) section in this guide instead.
+
+---
+
 ## Table of Contents
 
 1. [Getting Started](#getting-started)
@@ -21,6 +37,9 @@
 ---
 
 ## Getting Started
+
+> **⚠️ REMINDER: Do NOT perform a factory reset on your gateway!**  
+> A factory reset will erase all system configuration and require a complete redeployment.
 
 ### First Login
 
